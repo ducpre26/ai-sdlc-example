@@ -1,0 +1,6 @@
+interface:
+  display_name: "SDLC Requirements Review"
+  short_description: "Review độc lập SRS và RTM"
+  default_prompt: "Dùng $sdlc-requirements-review để review độc lập SRS và RTM mà không sửa artifact."
+policy:
+  allow_implicit_invocation: false

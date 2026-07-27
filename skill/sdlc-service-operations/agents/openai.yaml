@@ -1,0 +1,6 @@
+interface:
+  display_name: "SDLC Service Operations"
+  short_description: "Chuẩn hóa runbook, incident và bảo trì"
+  default_prompt: "Dùng $sdlc-service-operations để tạo hoặc kiểm tra artifact vận hành từ task packet có nguồn."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "SDLC Solution Design"
+  short_description: "Thiết kế HLD, LLD, ADR và OpenAPI"
+  default_prompt: "Dùng $sdlc-solution-design để tạo hoặc kiểm tra thiết kế từ Requirements baseline trong task packet."
+policy:
+  allow_implicit_invocation: false

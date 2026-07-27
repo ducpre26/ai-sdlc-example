@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI-First SDLC"
+  short_description: "Tạo, theo dõi và tiếp tục tài liệu SDLC"
+  default_prompt: "Dùng $ai-first-sdlc để kiểm tra Git/progress, định tuyến stage.step tới agent cùng companion skill bắt buộc và xử lý artifact tiếp theo mà không tự vượt human gate."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "SDLC Project Initiation"
+  short_description: "Tạo và kiểm tra Charter cùng PMP"
+  default_prompt: "Dùng $sdlc-project-initiation để chuẩn bị artifact Initiation từ nguồn và task packet đã cung cấp."
+policy:
+  allow_implicit_invocation: false

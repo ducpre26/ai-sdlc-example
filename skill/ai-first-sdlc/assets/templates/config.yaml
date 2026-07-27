@@ -1,0 +1,17 @@
+schema_version: 1
+execution_mode: delegated_with_fallback
+separation_of_duties: strict
+
+agent_bindings:
+  qa-agent:
+    runtime: codex-subagent
+    target: qa-agent
+  qa-review-agent:
+    runtime: codex-subagent
+    target: qa-review-agent
+  development-agent:
+    runtime: codex-subagent
+    target: development-agent
+  code-review-agent:
+    runtime: codex-subagent
+    target: code-review-agent

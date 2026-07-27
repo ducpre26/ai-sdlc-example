@@ -1,0 +1,6 @@
+interface:
+  display_name: "SDLC Code Review"
+  short_description: "Review độc lập code và evidence"
+  default_prompt: "Dùng $sdlc-code-review để review độc lập implementation mà không sửa code."
+policy:
+  allow_implicit_invocation: false

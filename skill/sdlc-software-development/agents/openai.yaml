@@ -1,0 +1,6 @@
+interface:
+  display_name: "SDLC Software Development"
+  short_description: "Triển khai code và automated test"
+  default_prompt: "Dùng $sdlc-software-development để triển khai work item từ baseline và thu evidence có thật."
+policy:
+  allow_implicit_invocation: false

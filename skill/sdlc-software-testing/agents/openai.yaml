@@ -1,0 +1,6 @@
+interface:
+  display_name: "SDLC Software Testing"
+  short_description: "Thiết kế và thực thi kiểm thử"
+  default_prompt: "Dùng $sdlc-software-testing để thiết kế, thực thi test và ghi evidence cho đúng build."
+policy:
+  allow_implicit_invocation: false

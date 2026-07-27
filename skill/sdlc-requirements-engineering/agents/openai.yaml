@@ -1,0 +1,6 @@
+interface:
+  display_name: "SDLC Requirements Engineering"
+  short_description: "Thu thập và đặc tả yêu cầu có nguồn"
+  default_prompt: "Dùng $sdlc-requirements-engineering để elicitation và tạo hoặc cập nhật SRS cùng RTM từ task packet."
+policy:
+  allow_implicit_invocation: false

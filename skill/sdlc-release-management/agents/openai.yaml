@@ -1,0 +1,6 @@
+interface:
+  display_name: "SDLC Release Management"
+  short_description: "Chuẩn bị release và bằng chứng Go/No-Go"
+  default_prompt: "Dùng $sdlc-release-management để chuẩn bị hoặc kiểm tra release artifact mà không tự quyết định Go."
+policy:
+  allow_implicit_invocation: false

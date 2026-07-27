@@ -1,0 +1,6 @@
+interface:
+  display_name: "SDLC Test Review"
+  short_description: "Review độc lập kết quả kiểm thử"
+  default_prompt: "Dùng $sdlc-test-review để review độc lập test result, coverage và evidence."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,17 @@
+schema_version: 1
+execution_mode: delegated_with_fallback
+separation_of_duties: strict
+
+agent_bindings:
+  qa-agent:
+    runtime: claude-code-subagent
+    target: qa-agent
+  qa-review-agent:
+    runtime: claude-code-subagent
+    target: qa-review-agent
+  development-agent:
+    runtime: claude-code-subagent
+    target: development-agent
+  code-review-agent:
+    runtime: claude-code-subagent
+    target: code-review-agent

@@ -1,0 +1,135 @@
+schema_version: 2
+stages:
+  initiation:
+    inspect:
+      agent: sdlc-orchestrator-agent
+      required_skills: []
+    verify_inputs:
+      agent: sdlc-orchestrator-agent
+      required_skills: [sdlc-project-initiation]
+    execute:
+      agent: sdlc-orchestrator-agent
+      required_skills: [sdlc-project-initiation]
+    validate:
+      agent: sdlc-orchestrator-agent
+      required_skills: [sdlc-project-initiation]
+    human_gate:
+      agent: human
+      required_skills: []
+    handoff:
+      agent: sdlc-orchestrator-agent
+      required_skills: []
+  requirements:
+    inspect:
+      agent: sdlc-orchestrator-agent
+      required_skills: []
+    verify_inputs:
+      agent: qa-agent
+      required_skills: [sdlc-requirements-engineering]
+    execute:
+      agent: qa-agent
+      required_skills: [sdlc-requirements-engineering]
+    validate:
+      agent: qa-review-agent
+      required_skills: [sdlc-requirements-review]
+    human_gate:
+      agent: human
+      required_skills: []
+    handoff:
+      agent: sdlc-orchestrator-agent
+      required_skills: []
+  design:
+    inspect:
+      agent: sdlc-orchestrator-agent
+      required_skills: []
+    verify_inputs:
+      agent: sdlc-orchestrator-agent
+      required_skills: [sdlc-solution-design]
+    execute:
+      agent: sdlc-orchestrator-agent
+      required_skills: [sdlc-solution-design]
+    validate:
+      agent: sdlc-orchestrator-agent
+      required_skills: [sdlc-solution-design]
+    human_gate:
+      agent: human
+      required_skills: []
+    handoff:
+      agent: sdlc-orchestrator-agent
+      required_skills: []
+  development:
+    inspect:
+      agent: sdlc-orchestrator-agent
+      required_skills: []
+    verify_inputs:
+      agent: development-agent
+      required_skills: [sdlc-software-development]
+    execute:
+      agent: development-agent
+      required_skills: [sdlc-software-development]
+    validate:
+      agent: code-review-agent
+      required_skills: [sdlc-code-review]
+    human_gate:
+      agent: human
+      required_skills: []
+    handoff:
+      agent: sdlc-orchestrator-agent
+      required_skills: []
+  testing:
+    inspect:
+      agent: sdlc-orchestrator-agent
+      required_skills: []
+    verify_inputs:
+      agent: qa-agent
+      required_skills: [sdlc-software-testing]
+    execute:
+      agent: qa-agent
+      required_skills: [sdlc-software-testing]
+    validate:
+      agent: qa-review-agent
+      required_skills: [sdlc-test-review]
+    human_gate:
+      agent: human
+      required_skills: []
+    handoff:
+      agent: sdlc-orchestrator-agent
+      required_skills: []
+  release:
+    inspect:
+      agent: sdlc-orchestrator-agent
+      required_skills: []
+    verify_inputs:
+      agent: sdlc-orchestrator-agent
+      required_skills: [sdlc-release-management]
+    execute:
+      agent: sdlc-orchestrator-agent
+      required_skills: [sdlc-release-management]
+    validate:
+      agent: sdlc-orchestrator-agent
+      required_skills: [sdlc-release-management]
+    human_gate:
+      agent: human
+      required_skills: []
+    handoff:
+      agent: sdlc-orchestrator-agent
+      required_skills: []
+  operations:
+    inspect:
+      agent: sdlc-orchestrator-agent
+      required_skills: []
+    verify_inputs:
+      agent: sdlc-orchestrator-agent
+      required_skills: [sdlc-service-operations]
+    execute:
+      agent: sdlc-orchestrator-agent
+      required_skills: [sdlc-service-operations]
+    validate:
+      agent: sdlc-orchestrator-agent
+      required_skills: [sdlc-service-operations]
+    human_gate:
+      agent: human
+      required_skills: []
+    handoff:
+      agent: sdlc-orchestrator-agent
+      required_skills: []
